@@ -1,0 +1,165 @@
+{
+    "Clientes": [{
+        "id": "001",
+        "nome": "Ronaldo",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"ronaldo@email.com",
+        "telefone":"1234-5678"
+    },{
+        "id": "002",
+        "nome": "Joyce",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"ronaldo@email.com",
+        "telefone":"1234-5679"
+    },{
+        "id": "003",
+        "nome": "Iuri",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"iuri@email.com",
+        "telefone":"1234-5680"
+    },{
+        "id": "004",
+        "nome": "Valério",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"valerio@email.com",
+        "telefone":"1234-5680"
+    },{
+        "id": "005",
+        "nome": "Carolina",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"carolina@email.com",
+        "telefone":"1234-5680"
+    }],
+
+    "Medicamento": [{
+        "id": "001",
+        "nome": "Loratadina 10mg",
+        "fabricante": "Aché",
+        "preco":"R$2,99",
+        "quantidade":"50"
+    },{
+        "id": "002",
+        "nome": "Vick Vaporub 12g",
+        "fabricante": "Procter & Gamble",
+        "preco":"R$34,10",
+        "quantidade":"60"
+    },{
+        "id": "003",
+        "nome": "Sorine 30ml Solução",
+        "fabricante": "Aché",
+        "preco":"R$26,05",
+        "quantidade":"40"
+    },{
+        "id": "004",
+        "nome": "Neosaldina 20 Drágeas",
+        "fabricante": "Nycomed",
+        "preco":"R$20,72",
+        "quantidade":"45"
+    },{
+        "id": "005",
+        "nome": "Aspirina 500mg",
+        "fabricante": "Bayer",
+        "preco":"R$7,89",
+        "quantidade":"35"
+    }],
+
+    "Fornecedores": [{
+        "id": "001",
+        "nome": "Aché",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"ache@email.com",
+        "telefone":"1234-5678",
+        "cnpj":"00.000.000/0001-00"        
+    },{
+        "id": "002",
+        "nome": "Procter & Gamble",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"procteregamble@email.com",
+        "telefone":"1234-5678",
+        "cnpj":"00.000.000/0001-00" 
+    },{
+        "id": "003",
+        "nome": "Bayer",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"bayer@email.com",
+        "telefone":"1234-5678",
+        "cnpj":"00.000.000/0001-00" 
+    },{
+        "id": "004",
+        "nome": "Nycomed",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email":"nycomed@email.com",
+        "telefone":"1234-5678",
+        "cnpj":"00.000.000/0001-00" 
+    }],
+
+    "Farmacia": [{
+        "id": "001",
+        "endereco": "Rua Um, 123 - Bairro Um",
+        "email": "farmacia@email.com",
+        "telefone":"1234-5678",
+        "cnpj":"00.000.000/0001-00"        
+    }],
+
+    "Vendedor": [{
+        "id": "001",
+        "nome": "Atendedor 1",
+        "email": "atendedor1@gmailcom",
+        "telefone":"1234-5678"                
+    },
+    {
+        "id": "002",
+        "nome": "Atendedor 2",
+        "email": "atendedor2@gmailcom",
+        "telefone":"1234-5678"                
+    },
+    {
+        "id": "003",
+        "nome": "Atendedor 3",
+        "email": "atendedor3@gmailcom",
+        "telefone":"1234-5678"                
+    },
+    {
+        "id": "004",
+        "nome": "Atendedor 4",
+        "email": "atendedor4@gmailcom",
+        "telefone":"1234-5678"                
+    },
+    {
+        "id": "005",
+        "nome": "Atendedor 5",
+        "email": "atendedor5@gmailcom",
+        "telefone":"1234-5678"                
+    }],
+
+    "Venda": [{
+        "id": "001",
+        "id_medicamento": "005",
+        "id_cliente": "Atendedor 2",
+        "data":"10/10/10"                
+    },
+    {
+        "id": "002",
+        "id_medicamento": "004",
+        "id_cliente": "Atendedor 1",
+        "data":"10/10/10"                  
+    },
+    {
+        "id": "003",
+        "id_medicamento": "004",
+        "id_cliente": "Atendedor 2",
+        "data":"10/10/10"                  
+    },
+    {
+        "id": "004",
+        "id_medicamento": "001",
+        "id_cliente": "Atendedor 1",
+        "data":"10/10/10"                  
+    },
+    {
+        "id": "005",
+        "id_medicamento": "003",
+        "id_cliente": "Atendedor 1",
+        "data":"10/10/10"                  
+    }]
+}
